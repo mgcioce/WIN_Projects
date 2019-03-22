@@ -36,6 +36,7 @@ nav {
 #headerText {
     font-size: 32px;
     color: white;
+    font-family: 'Lucida console', monospace;
 }
 
 .nav-elements {
@@ -111,4 +112,6 @@ nav {
     margin-top: 80px;
     margin-left: 5px;
     margin-right: 5px;
+    font-size: 20px;
+    font-family: 'Lucida console', monospace;
 }
