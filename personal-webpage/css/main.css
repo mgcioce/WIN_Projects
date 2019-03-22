@@ -1,0 +1,114 @@
+/* CSS reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* begin styling */
+
+/* header: title and navbar */
+
+body {
+    background-color: rgb(241, 247, 248);
+}
+nav {
+    display: block;
+    margin-bottom: 50px;
+}
+
+#titleHeader{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 375px;
+    box-sizing: border-box;  
+}
+
+#headerPic {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: -1;
+}
+
+#headerText {
+    font-size: 32px;
+    color: white;
+}
+
+.nav-elements {
+    background-color: rgb(220, 243, 250);
+    text-align: right;
+    padding-right: 5%;
+    margin-bottom: 0px;
+}
+
+.nav-link {
+    display: inline-block;
+}
+
+/* First row: picture carousel and text */
+
+/* picture carousel */
+#rowOne {
+    margin-bottom: 16px;
+    height: 360px;
+    margin-left: 5%;
+    display: block;
+}
+
+#carousel {
+    height: 360px;
+    width: 360px;
+    box-sizing: content-box;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#pictureCarousel {
+    height: 360px;
+    width: 360px;
+}
+
+.carousel-inner {
+    height: 360px;
+    width: 360px;
+}
+
+.carousel-item {
+    text-align: center;
+    background-color: grey;
+    height: 360px;
+    width: 360px;
+    box-sizing: border-box;
+}
+
+.carousel-item .adjust {
+    transform: translate(0%,16.5%) rotate(90deg);   
+}
+
+.carousel-pic {
+    padding: auto;
+}
+
+#cat {
+    transform: translate(0%,4%);
+}
+
+#guts {
+    transform: translate(0%,32.5%);
+}
+
+/* text */
+#welcomeMessage {
+    text-align: justify;
+}
+
+#welcomeText {
+    margin-bottom: 0px;
+    margin-top: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
